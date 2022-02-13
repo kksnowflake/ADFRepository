@@ -1,0 +1,16 @@
+{
+	"name": "DS_Products",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MySQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`product_details`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
